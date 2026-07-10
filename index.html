@@ -1,61 +1,128 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Thought Processer</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background: #f4f8ff;
-            padding: 40px;
-        }
+<title>Thought Processer</title>
 
-        h1 {
-            font-size: 50px;
-            color: #2563eb;
-        }
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #eef5ff;
+    color: #222;
+}
 
-        p {
-            font-size: 20px;
-            color: #333;
-        }
+nav {
+    background: #2563eb;
+    padding: 15px;
+    color: white;
+    text-align: center;
+}
 
-        .box {
-            background: white;
-            padding: 25px;
-            border-radius: 15px;
-            max-width: 600px;
-            margin: auto;
-        }
+nav h2 {
+    margin: 0;
+}
 
-        button {
-            background: #2563eb;
-            color: white;
-            border: none;
-            padding: 12px 25px;
-            font-size: 18px;
-            border-radius: 10px;
-            cursor: pointer;
-        }
-    </style>
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h1 {
+    font-size: 55px;
+    color: #2563eb;
+}
+
+.hero p {
+    font-size: 22px;
+}
+
+button {
+    background: #2563eb;
+    color: white;
+    padding: 15px 35px;
+    border: none;
+    border-radius: 25px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.card {
+    background: white;
+    width: 250px;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+footer {
+    background: #2563eb;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+</style>
+
 </head>
 
 <body>
 
-<div class="box">
+<nav>
+<h2>🧠 Thought Processer</h2>
+</nav>
 
-<h1>Thought Processer</h1>
+
+<section class="hero">
+
+<h1>Think. Create. Build.</h1>
 
 <p>
-Turn your thoughts into ideas.  
-Organize, create, and imagine something new.
+A place where your thoughts become ideas and your ideas become reality.
 </p>
-
-<h2>Created by Dhanvitha</h2>
 
 <button>Start Thinking</button>
 
+</section>
+
+
+<section class="cards">
+
+<div class="card">
+<h2>💡 Ideas</h2>
+<p>Capture your creative thoughts and new inventions.</p>
 </div>
+
+
+<div class="card">
+<h2>📝 Notes</h2>
+<p>Organize your important thoughts in one place.</p>
+</div>
+
+
+<div class="card">
+<h2>🚀 Goals</h2>
+<p>Turn your dreams into achievable plans.</p>
+</div>
+
+</section>
+
+
+<footer>
+<p>Created by Founder: Dhanvitha | 10 July 2026</p>
+</footer>
+
 
 </body>
 </html>
