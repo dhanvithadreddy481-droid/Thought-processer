@@ -85,11 +85,9 @@ let password = document.getElementById("password").value;
 
 if(username == "admin" && password == "1234"){
 
-document.getElementById("message").innerHTML =
-"✅ Login successful! Welcome " + username;
+window.location.href = "index.html";
 
 }
-
 else{
 
 document.getElementById("message").innerHTML =
